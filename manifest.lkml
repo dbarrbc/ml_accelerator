@@ -2,8 +2,8 @@ project_name: "app-bqml-accelerator"
 
 application: bqml-accelerator {
   label: "BQML Accelerator"
-  # file: "bundle.js"
-  url: "http://localhost:8080/bundle.js"
+  file: "bundle.js"
+  # url: "http://localhost:8080/bundle.js"
   entitlements: {
     use_form_submit: yes
     use_embeds: yes
